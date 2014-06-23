@@ -21,6 +21,8 @@
 		783D410A1957FF3000E69D24 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783D40EC1957FF3000E69D24 /* UIKit.framework */; };
 		783D41121957FF3000E69D24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 783D41101957FF3000E69D24 /* InfoPlist.strings */; };
 		783D41141957FF3000E69D24 /* MyTestApp91Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 783D41131957FF3000E69D24 /* MyTestApp91Tests.m */; };
+		783D41201958021900E69D24 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783D411F1958021900E69D24 /* Social.framework */; };
+		783D4122195805A700E69D24 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783D4121195805A700E69D24 /* Accounts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		783D410F1957FF3000E69D24 /* MyTestApp91Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyTestApp91Tests-Info.plist"; sourceTree = "<group>"; };
 		783D41111957FF3000E69D24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		783D41131957FF3000E69D24 /* MyTestApp91Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTestApp91Tests.m; sourceTree = "<group>"; };
+		783D411D1957FF3C00E69D24 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		783D411F1958021900E69D24 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		783D4121195805A700E69D24 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				783D4122195805A700E69D24 /* Accounts.framework in Frameworks */,
+				783D41201958021900E69D24 /* Social.framework in Frameworks */,
 				783D40EB1957FF3000E69D24 /* CoreGraphics.framework in Frameworks */,
 				783D40ED1957FF3000E69D24 /* UIKit.framework in Frameworks */,
 				783D40E91957FF3000E69D24 /* Foundation.framework in Frameworks */,
@@ -101,6 +108,9 @@
 		783D40E71957FF3000E69D24 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				783D4121195805A700E69D24 /* Accounts.framework */,
+				783D411F1958021900E69D24 /* Social.framework */,
+				783D411D1957FF3C00E69D24 /* Twitter.framework */,
 				783D40E81957FF3000E69D24 /* Foundation.framework */,
 				783D40EA1957FF3000E69D24 /* CoreGraphics.framework */,
 				783D40EC1957FF3000E69D24 /* UIKit.framework */,
@@ -380,6 +390,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyTestApp91/MyTestApp91-Prefix.pch";
 				INFOPLIST_FILE = "MyTestApp91/MyTestApp91-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,6 +404,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyTestApp91/MyTestApp91-Prefix.pch";
 				INFOPLIST_FILE = "MyTestApp91/MyTestApp91-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -414,6 +426,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "MyTestApp91Tests/MyTestApp91Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -432,6 +445,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyTestApp91/MyTestApp91-Prefix.pch";
 				INFOPLIST_FILE = "MyTestApp91Tests/MyTestApp91Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -457,6 +471,7 @@
 				783D41191957FF3000E69D24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		783D411A1957FF3000E69D24 /* Build configuration list for PBXNativeTarget "MyTestApp91Tests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +480,7 @@
 				783D411C1957FF3000E69D24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

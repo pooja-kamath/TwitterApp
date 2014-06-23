@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <Twitter/Twitter.h>
 @interface SBViewController : UIViewController
-
 @end
